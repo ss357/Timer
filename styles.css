@@ -1,0 +1,232 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: #dafafe;
+    
+}
+header{
+    
+    margin-top: 10vh;
+    margin-left: 5vw;
+    height: 40vh;
+    width: 90vw;
+    /* border: 5px solid black; */
+    position: relative;
+    
+    
+}
+.main-container{
+    border-radius: 32px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #aef4f0,#e1a5d8);
+    /* border: 10px solid blue; */
+    position: relative;
+}
+
+
+#title{
+    color: white;
+    width: 100%;
+    word-spacing: 1.5rem;
+    font-size: xx-large;
+    position: absolute;
+    text-align: center;
+   top: 40%;
+    background-color:inherit ;
+}
+
+.button{
+    position: absolute;
+    background-color: inherit;
+    top: 80%;
+    right: 9%;
+    
+}
+.input{
+    
+    position: absolute;
+    background-color: inherit;
+    /* margin-top: 100px; */
+    top: 80%;
+    /* border: 2px solid black; */
+    left: 10%;
+    /* border: 2px solid blue;  */
+    
+}
+input{
+    border: none;
+    height: 30px;
+    width: 25vw;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+}
+input:active{
+   outline: none;
+   box-shadow: none;
+    border: 2px solid blue;
+}
+button{
+    border: none;
+    height: 30px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 32px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #088a83;
+}
+
+button:active{
+transition: 0.1s;
+transform: scale(.9);
+}
+
+#counter{
+    height: 30vh;
+    width: 80vw;
+    margin-left: 10vw;
+    background-color: #84c5c2;
+    margin-top: 50px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.digits{
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    background-color: #5c47d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(179, 222, 222);
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+@media only screen 
+   and (max-width : 320px) {
+   /* Styles here */
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: #1e1e1f;
+    
+}
+header{
+    
+    margin-top: 10vh;
+    margin-left: 5vw;
+    height: 40vh;
+    width: 90vw;
+    /* border: 5px solid black; */
+    position: relative;
+    
+    
+}
+.main-container{
+    border-radius: 32px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #33c0b9,#dc3ec5);
+    /* border: 10px solid blue; */
+    position: relative;
+}
+
+
+#title{
+    padding: 10px;
+    color: white;
+    width: 100%;
+    word-spacing: .1rem;
+    font-size: medium;
+    position: absolute;
+    text-align: center;
+   top: 20%;
+    background-color:inherit ;
+    font-weight: bold;
+}
+.button{
+    position: absolute;
+    background-color: inherit;
+    top: 80%;
+    left: 29%;
+    
+}
+.input{
+    
+    position: absolute;
+    background-color: inherit;
+    /* margin-top: 100px; */
+    top: 50%;
+    /* border: 2px solid black; */
+    left: 33%;
+    /* border: 2px solid blue;  */
+    
+}
+input{
+    color: white;
+    border: none;
+    height: 30px;
+    width: 85px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: smaller;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+}
+input:active{
+   /* outline: none;
+   box-shadow: none;
+    border: 2px solid blue; */
+}
+button{
+    border: none;
+    height: 30px;
+    padding: 5px;
+    width: 110px;
+    border-radius: 32px;
+    font-size: .7rem;
+    font-weight: bold;
+    color: #03e5da;
+}
+
+button:active{
+transition: 0.1s;
+transform: scale(.9);
+}
+
+#counter{
+    height: 25vh;
+    width: 86vw;
+    margin-left: 8vw;
+    background-color: #45938f;
+    margin-top: 50px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.digits{
+    height: 70px;
+    width: 80px;
+    margin: 5px;
+    background-color: #201756;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    border-radius: 15px;
+}
+}
